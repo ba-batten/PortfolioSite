@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <title>Brandon Batten Portfolio</title>
+  </head>
+  <body>
+    <main class="container">
+
+      <!-- Header -->
+      <div class="row">
+        <header class="col-xs-12">
+
+          <!-- logo -->
+          <div class="col-xs-2 logo">
+            <img src="images/bb-logo.svg" alt="BB Logo" class="bb-logo">
+          </div>
+
+          <!-- name and position -->
+          <div class="col-xs-10 name-position navy">
+            <h1 class="text-uppercase">Brandon Batten</h1>
+            <h4 class="text-uppercase blue">Front-End Ninja</h4>
+          </div>
+        </header>
+      </div>
+
+      <hr class="gray">
+
+      <!-- Large Picture -->
+      <div class="row">
+        <section class="col-xs-12 large-pic">
+          <picture>
+            <source
+            media="(min-width: 1000px)"
+            srcset="images/macbook_1280w.jpg">
+            <source
+              media="(min-width: 450px)"
+              srcset="images/macbook_1000w.jpg">
+            <img src="images/macbook_425w.jpg" alt="Desk with an iMac monitor, a tablet, and a laptop" class="img-responsive">
+          </picture>
+        </section>
+      </div>
+
+      <!-- Featured Work -->
+      <div class="row">
+        <div class="col-xs-12 featured">
+          <h2 class="text-uppercase gray">Featured Work</h2>
+        </div>
+      </div>
+
+      <!-- List of previous work -->
+      <div class="row">
+        <section class="col-xs-12">
+          <ul class="previous-work text-center" id="prev-work">
+
+            <!-- Appify -->
+            <!-- <li>
+                <div class="work-link-pic">
+                    <img src="images/offic_640.jpg" alt="Large monitor, keyboard, mouse, and plant on a desk" class="img-responsive" data-toggle="modal" data-target="#appifyModal">
+                </div>
+              <a href="#" class="navy">
+                <div class="work-link-desc">
+                  <h3 class="text-uppercase">Appify</h3>
+                  <p>https://www.github.com/udacity/Appify</p>
+                </div>
+              </a>
+            </li> -->
+
+            <!-- Sunflower -->
+            <!-- <li>
+                <div class="work-link-pic">
+                    <img src="images/frogger-clone_640.jpg" alt="Close up of a sunflower" class="img-responsive" data-toggle="modal" data-target="#froggerModal">
+                </div>
+              <a href="#" class="navy">
+                <div class="work-link-desc">
+                  <h3 class="text-uppercase">Frogger Clone</h3>
+                  <p>https://www.github.com/udacity/Sunflower</p>
+                </div>
+              </a>
+            </li> -->
+
+            <!-- Bokeh -->
+            <!-- <li>
+                <div class="work-link-pic">
+                    <img src="images/firework_640.jpg" alt="Fireworks going off on a street" class="img-responsive" data-toggle="modal" data-target="#bokehModal">
+                </div>
+              <a href="#" class="navy">
+                <div class="work-link-desc">
+                  <h3 class="text-uppercase">Bokeh</h3>
+                  <p>https://www.github.com/udacity/Bokeh</p>
+                </div>
+              </a>
+            </li> -->
+          </ul>
+        </section>
+      </div>
+    </main>
+
+    <script type="text/javascript" src="js/helper.js"></script>
+    <script type="text/javascript" src="js/scripts.js"></script>
+
+    <!-- Modals -->
+
+    <!-- Appify Modal -->
+    <div class="modal fade" id="appifyModal" tabindex="-1" role="dialog" aria-labelledby="appifyModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title text-uppercase blue" id="appifyModalLabel">Appify</h4>
+                </div>
+                <div class="modal-body">
+                    <img class="img-responsive" src="images/offic_640.jpg" alt="Large monitor, keyboard, mouse, and plant on a desk">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec mollis euismod semper. Orci varius
+                    natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Sed mollis diam non nibh
+                    varius posuere. Nam facilisis arcu sit amet maximus tempus. Suspendisse pretium efficitur vulputate.
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Sunflower Modal -->
+    <div class="modal fade" id="froggerModal" tabindex="-1" role="dialog" aria-labelledby="froggerModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title text-uppercase blue" id="froggerModalLabel">Frogger Clone</h4>
+                </div>
+                <div class="modal-body">
+                    <img class="img-responsive" src="images/frogger-clone_640.jpg" alt="Close up of a sunflower">
+                    Frogger Clone demonstrates used of object oriented programming using Javascript.  The game engine
+                    was provided by Udacity to comlete this project as part of the Front-End Web Developer Nanodegree.
+                    My task was to create the individual objects that make up the game such as the main character,
+                    enemy bugs, and collectables.  The main player tries to collect as many gems as possible while
+                    avoiding the bugs moving across the screen.  The game tracks the current score and the high score
+                    for the current session.
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bokeh Modal -->
+    <div class="modal fade" id="bokehModal" tabindex="-1" role="dialog" aria-labelledby="bokehModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title text-uppercase blue" id="bokehModalLabel">Bokeh</h4>
+                </div>
+                <div class="modal-body">
+                    <img class="img-responsive" src="images/firework_640.jpg" alt="Fireworks going off on a street">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec mollis euismod semper. Orci varius
+                    natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Sed mollis diam non nibh
+                    varius posuere. Nam facilisis arcu sit amet maximus tempus. Suspendisse pretium efficitur vulputate.
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+  </body>
+</html>
