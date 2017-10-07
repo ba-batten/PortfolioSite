@@ -36,6 +36,10 @@ footer a, footer a:visited {
   color: white;
 }
 
+footer a:hover {
+  color: #7d97ad;
+}
+
 .top-header, footer {
   background:
     /* top, transparent gray, faked with gradient */
@@ -305,10 +309,6 @@ hr {
 * Style for large screens
 */
 @media screen and (min-width: 800px){
-  body {
-    margin-bottom: 50px;
-  }
-
   h2 {
     font-size: 35px;
   }
