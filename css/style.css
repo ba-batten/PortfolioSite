@@ -130,9 +130,13 @@ hr {
     border-top: 3px solid;
 }
 
+.featured-container {
+  margin-bottom: 80px;;
+}
+
 .featured {
   outline: none;
-  margin: 80px 0 40px;
+  margin-top: 80px;
 }
 
 .previous-work {
