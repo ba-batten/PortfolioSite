@@ -97,6 +97,10 @@ hr {
     border-top: 3px solid;
 }
 
+.featured {
+  outline: none;
+}
+
 .previous-work {
   padding: 0;
   margin: 0;
