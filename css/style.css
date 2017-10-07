@@ -71,6 +71,12 @@ footer {
   margin-bottom: 0;
 }
 
+.footer-container {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
 .scroll-link {
   transition: all .3s ease-in-out;
 }
@@ -85,7 +91,7 @@ footer {
 
 .small-logo {
   width: 30px;
-  margin: 10px;
+  margin: 20px;
 }
 
 h1 {
