@@ -76,7 +76,7 @@ footer a:hover {
   bottom: 3%;*/
   position: relative;
   top: 70%;
-  transform: translateY(-3%);
+  transform: translateY(-10%);
 }
 
 .more-info-container p {
@@ -88,10 +88,6 @@ footer a:hover {
   position: relative;
   top: 50%;
   transform: translateY(-50%);
-}
-
-.scroll-link {
-  transition: all .3s ease-in-out;
 }
 
 .logo, .name-position {
