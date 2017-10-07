@@ -18,6 +18,12 @@ body {
   color: #7d97ad;
 }
 
+.top-header {
+  background: #2d3c49;
+  height: 100vh;
+  padding: 40px;
+}
+
 header {
   margin-top: 20px;
 }
@@ -27,7 +33,7 @@ header {
 }
 
 .bb-logo {
-  width: 100%;
+  width: 33%;
 }
 
 h1 {
