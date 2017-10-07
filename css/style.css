@@ -20,6 +20,14 @@ body {
 
 .top-header {
   height: 100vh;
+  margin: 0;
+}
+
+footer {
+  height: 33vh;
+}
+
+.top-header, footer {
   background:
     /* top, transparent gray, faked with gradient */
     linear-gradient(
@@ -33,11 +41,10 @@ body {
   background-attachment: fixed;
   background-repeat: no-repeat;
   padding: 40px;
-  margin: 0;
+  color: white;
 }
 
 .header-h1 {
-  color: white;
   font-weight: 400;
 }
 
@@ -74,6 +81,11 @@ body {
 
 .bb-logo {
   width: 33%;
+}
+
+.small-logo {
+  width: 30px;
+  margin: 10px;
 }
 
 h1 {
@@ -178,7 +190,7 @@ hr {
 */
 
 @media screen and (min-width: 450px){
-  .top-header {
+  .top-header, footer {
     background:
       /* top, transparent red, faked with gradient */
       linear-gradient(
@@ -301,7 +313,7 @@ hr {
 }
 
 @media screen and (min-width: 1281px) {
-  .top-header {
+  .top-header, footer {
     background:
       /* top, transparent red, faked with gradient */
       linear-gradient(
