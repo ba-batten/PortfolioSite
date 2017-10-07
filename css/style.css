@@ -25,8 +25,15 @@ body {
   margin: 0;
 }
 
-header {
-  margin-top: 20px;
+.header-h1 {
+  color: white;
+  font-weight: 400;
+}
+
+.intro-container {
+  position: relative;
+  top: 30%;
+  /*transform: translateY(-20%);*/
 }
 
 .logo, .name-position {
@@ -41,7 +48,6 @@ h1 {
     font-size: 25px;
     font-weight: 100;
     margin: 0;
-    text-align: right;
   }
 
 h2 {
