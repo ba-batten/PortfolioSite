@@ -36,6 +36,10 @@ body {
   /*transform: translateY(-20%);*/
 }
 
+.more-info-container p {
+  color: white;
+}
+
 .logo, .name-position {
   padding: 0;
 }
