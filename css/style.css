@@ -33,11 +33,24 @@ body {
 .intro-container {
   position: relative;
   top: 30%;
-  /*transform: translateY(-20%);*/
+  transform: translateY(-50%);
+}
+
+.more-info-container {
+  /*position: absolute;
+  bottom: 3%;*/
+  position: relative;
+  top: 60%;
+  transform: translateY(-3%);
 }
 
 .more-info-container p {
   color: white;
+  margin-bottom: 0;
+}
+
+.scroll-link {
+  transition: all .3s ease-in-out;
 }
 
 .logo, .name-position {
