@@ -211,7 +211,7 @@ hr {
 @media screen and (min-width: 450px){
   .top-header, footer {
     background:
-      /* top, transparent red, faked with gradient */
+      /* top, transparent gray, faked with gradient */
       linear-gradient(
         rgba(45, 60, 73, 0.45),
         rgba(45, 60, 73, 0.45)
@@ -342,4 +342,13 @@ hr {
     background-attachment: fixed;
     background-repeat: no-repeat;
   }
+
+  .more-info-container {
+    /*position: absolute;
+    bottom: 3%;*/
+    position: relative;
+    top: 65%;
+    transform: translateY(-3%);
+  }
+
 }
