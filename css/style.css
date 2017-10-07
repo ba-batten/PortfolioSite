@@ -75,8 +75,8 @@ footer a:hover {
   /*position: absolute;
   bottom: 3%;*/
   position: relative;
-  top: 70%;
-  transform: translateY(-10%);
+  top: 60%;
+  transform: translateY(-3%);
 }
 
 .more-info-container p {
