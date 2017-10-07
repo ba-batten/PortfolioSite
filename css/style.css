@@ -27,6 +27,15 @@ footer {
   height: 33vh;
 }
 
+footer a {
+  font-size: 40px;
+  margin: 20px;
+}
+
+footer a, footer a:visited {
+  color: white;
+}
+
 .top-header, footer {
   background:
     /* top, transparent gray, faked with gradient */
