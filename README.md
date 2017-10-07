@@ -2,7 +2,8 @@
 Developed a personal portfolio page using HTML, CSS, and the Bootstrap framework. The page is fully responsive and works on mobile, tablet, and desktop browsers.
 
 ## How to run
-Clone or download this repository to run this application
+* Click [here](https://ba-batten.github.io/PortfolioSite/) to view my Portfolio
+* Clone or download this repository
 
 ## Coming additions/changes
 * Replace placeholder portfolio items with actual projects I have completed
