@@ -25,6 +25,8 @@ body {
 
 footer {
   height: 33vh;
+  background: #2d3c49;
+  color: white;
 }
 
 footer a {
@@ -40,7 +42,7 @@ footer a:hover {
   color: #7d97ad;
 }
 
-.top-header, footer {
+.top-header {
   background:
     /* top, transparent gray, faked with gradient */
     linear-gradient(
@@ -209,7 +211,7 @@ hr {
 */
 
 @media screen and (min-width: 450px){
-  .top-header, footer {
+  .top-header {
     background:
       /* top, transparent gray, faked with gradient */
       linear-gradient(
@@ -328,9 +330,9 @@ hr {
 }
 
 @media screen and (min-width: 1281px) {
-  .top-header, footer {
+  .top-header {
     background:
-      /* top, transparent red, faked with gradient */
+      /* top, transparent gray, faked with gradient */
       linear-gradient(
         rgba(45, 60, 73, 0.45),
         rgba(45, 60, 73, 0.45)
