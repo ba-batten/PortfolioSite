@@ -6,7 +6,7 @@ Developed a personal portfolio page using HTML, CSS, and the Bootstrap framework
 * Clone or download this repository
 
 ## Coming additions/changes
-* Replace placeholder portfolio items with actual projects I have completed
+* Improve look and feel of site (in progress)
 * Refactor to incorporate JavaScript and Knockout.js framework
 * Dynamically add projects to the portfolio
-* Improve look and feel of site
+
