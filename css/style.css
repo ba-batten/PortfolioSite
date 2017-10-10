@@ -4,6 +4,11 @@
 
 body {
   font-family: 'Roboto', sans-serif;
+  background: #7d97ad;
+}
+
+.container {
+  background: white;
 }
 
 .blue {
@@ -174,7 +179,7 @@ hr {
 
 .featured {
   outline: none;
-  margin: 30px auto 20px;
+  margin: 20px auto 10px;
   border-bottom: 1px solid #7d97ad;
 }
 
