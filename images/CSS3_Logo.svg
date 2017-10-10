@@ -1,13 +1,60 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!-- Generator: Adobe Illustrator 16.0.4, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
-<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 width="437.29px" height="491.728px" viewBox="85.5 210.272 437.29 491.728" enable-background="new 85.5 210.272 437.29 491.728"
-	 xml:space="preserve">
-<title>CSS3 Logo</title>
-<polygon fill="#1572B6" points="128.668,652.845 89.21,210.272 522.79,210.272 483.29,652.775 305.735,702 "/>
-<polygon fill="#33A9DC" points="306,664.375 449.474,624.599 483.229,246.459 306,246.459 "/>
-<path fill="#FFFFFF" d="M167.739,293.569l-0.308,54.766H390.34l-0.08,35.375H167.203l-0.161,54.766h222.909l-0.293,62.462
-	l-84.061,29.75l-83.639-29.75l0.063-27.087h-54.765l-0.251,65.719l138.353,49.289l138.877-49.289l0.467-98.873l0.141-19.834
-	l0.568-127.292L167.739,293.569L167.739,293.569z"/>
-</svg>
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   version="1.1"
+   id="Layer_1"
+   x="0px"
+   y="0px"
+   width="400"
+   height="453.64453"
+   viewBox="85.5 210.272 399.99999 453.64453"
+   enable-background="new 85.5 210.272 437.29 491.728"
+   xml:space="preserve"
+   sodipodi:docname="CSS3_Logo.svg"
+   inkscape:version="0.92.1 r15371"><metadata
+     id="metadata4498"><rdf:RDF><cc:Work
+         rdf:about=""><dc:format>image/svg+xml</dc:format><dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" /></cc:Work></rdf:RDF></metadata><defs
+     id="defs4496" /><sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1920"
+     inkscape:window-height="1013"
+     id="namedview4494"
+     showgrid="false"
+     inkscape:zoom="1.7021606"
+     inkscape:cx="211.225"
+     inkscape:cy="245.86401"
+     inkscape:window-x="-9"
+     inkscape:window-y="-9"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="Layer_1" /><title
+     id="title4485">CSS3 Logo</title><g
+     id="g4503"
+     transform="matrix(0.92255178,0,0,0.92255178,6.6218228,16.285192)"><polygon
+       transform="translate(-3.71)"
+       style="fill:#1572b6"
+       id="polygon4487"
+       points="89.21,210.272 522.79,210.272 483.29,652.775 305.735,702 128.668,652.845 " /><polygon
+       transform="translate(-3.71)"
+       style="fill:#33a9dc"
+       id="polygon4489"
+       points="483.229,246.459 306,246.459 306,664.375 449.474,624.599 " /><path
+       style="fill:#ffffff"
+       inkscape:connector-curvature="0"
+       id="path4491"
+       d="m 164.029,293.569 -0.308,54.766 H 386.63 l -0.08,35.375 H 163.493 l -0.161,54.766 h 222.909 l -0.293,62.462 -84.061,29.75 -83.639,-29.75 0.063,-27.087 h -54.765 l -0.251,65.719 138.353,49.289 138.877,-49.289 0.467,-98.873 0.141,-19.834 0.568,-127.292 z" /></g></svg>
