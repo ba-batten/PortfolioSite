@@ -147,7 +147,7 @@ hr {
 
 .featured {
   outline: none;
-  margin-top: 40px;
+  margin: 40px auto 20px;
 }
 
 .previous-work {
@@ -159,7 +159,7 @@ hr {
 }
 
 .previous-work li {
-  border-bottom: 1px solid #7d97ad;
+  /*border-bottom: 1px solid #7d97ad;*/
   margin-bottom: 5px;
   padding-bottom: 5px;
   display: flex;
@@ -167,7 +167,7 @@ hr {
 }
 
 .previous-work li:first-of-type {
-  border-top: 1px solid #7d97ad;
+  /*border-top: 1px solid #7d97ad;*/
   padding-top: 5px;
 }
 
