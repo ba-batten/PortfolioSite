@@ -141,6 +141,10 @@ hr {
     border-top: 3px solid;
 }
 
+.scroll-link p {
+  font-size: 20px;
+}
+
 .tech-list {
   list-style-type: none;
   margin: 0;
