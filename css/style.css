@@ -240,6 +240,20 @@ hr {
 }
 
 /*
+* Style for landscape mode
+*/
+
+@media (max-width: 800px) and (orientation: landscape){
+  .more-info-container {
+    /*position: absolute;
+    bottom: 3%;*/
+    position: relative;
+    top: 40%;
+    transform: translateY(-25%);
+  }
+}
+
+/*
 * Style for medium sized screens
 */
 
