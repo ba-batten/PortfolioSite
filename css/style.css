@@ -102,7 +102,7 @@ footer a:hover {
 }
 
 .bb-logo {
-  width: 33%;
+  width: 75px;
 }
 
 .small-logo {
@@ -117,7 +117,7 @@ h1 {
   }
 
 h2 {
-    font-size: 23px;
+    font-size: 20px;
 }
 
 h3 {
@@ -294,10 +294,6 @@ hr {
     margin: 20px 0;
   }
 
-  .bb-logo {
-    width: 90px;
-  }
-
   .previous-work {
     text-align: center;
   }
@@ -343,10 +339,6 @@ hr {
 
   p {
     font-size: 14px;
-  }
-
-  .bb-logo {
-    width: 120px;
   }
 }
 
