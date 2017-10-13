@@ -29,7 +29,7 @@ body {
 }
 
 footer {
-  height: 33vh;
+  height: 25vh;
   background: #2d3c49;
   color: white;
 }
@@ -107,7 +107,8 @@ footer a:hover {
 
 .small-logo {
   width: 60px;
-  margin: 20px;
+  margin: 20px auto;
+  display: block;
 }
 
 h1 {
