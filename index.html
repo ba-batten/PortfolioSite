@@ -52,14 +52,8 @@
       <!-- List of technologies -->
       <div class="row">
         <div class="col-md-12">
-          <ul class="tech-list">
-            <li><img src="images/javascript.svg" alt="JavaScript"><p>JavaScript</p></li>
-            <li><img src="images/jquery.svg" alt="jQuery"><p>jQuery</p></li>
-            <li><img src="images/knockout.svg" alt="Knockout"><p>Knockout</p></li>
-            <li><img src="images/bootstrap.svg" alt="Bootstrap"><p>Bootstrap</p></li>
-            <li><img src="images/HTML5_Badge.svg" alt="HTML"><p>HTML</p></li>
-            <li><img src="images/CSS3_Logo.svg" alt="CSS"><p>CSS</p></li>
-            <li><img src="images/jasmine-1.svg" alt="Jasmine"><p>Jasmine</p></li>
+          <ul class="tech-list" data-bind="foreach: technologies">
+            <li><img data-bind="attr: {src: pic, alt: name}"><p data-bind="text: name"></p></li>
           </ul>
         </div>
       </div>
@@ -78,7 +72,7 @@
           <ul class="previous-work text-center" id="prev-work"  data-bind="foreach: prevWork">
             <li>
                 <div class="work-link-pic">
-                    <img data-bind="attr: {src: medPic, 'data-target': id}" alt="Screen shot" class="img-responsive" data-toggle="modal">
+                    <img data-bind="attr: {src: medPic, 'data-target': id, alt: name}" class="img-responsive" data-toggle="modal">
                 </div>
               <a data-bind="attr: {href: url}" target="_blank" class="navy">
                 <div class="work-link-desc">
@@ -86,7 +80,7 @@
                   <p data-bind="text: url">p</p>
                 </div>
               </a>
-            </li>            
+            </li>
           </ul>
         </section>
       </div>
