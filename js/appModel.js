@@ -28,7 +28,7 @@ var viewModel = {
       name: "Jasmine",
       pic: "images/jasmine-1.svg"
     }
-  ]
+  ],
   prevWork: [
     {
       name: "Neighborhood Map",
