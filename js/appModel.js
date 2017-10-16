@@ -40,7 +40,9 @@ var viewModel = {
         " that displays a Google Map of an area and various points of interest. Users can" +
         " search all included landmarks and, when selected, additional information about" +
         " a landmark is presented from the FourSquare API.",
-      id: "#neighborhoodMapModal"
+      id: "#neighborhoodMapModal",
+      xHashId: "neighborhoodMapModal",
+      label: "neighborhoodMapModalLabel"
     },
     {
       name: "Arcade Clone",
@@ -50,7 +52,9 @@ var viewModel = {
       largePic: "images/frogger-clone.jpeg",
       description: "An HTML5 Canvas powered video game, developed using the best practices" +
         " in Object Oriented JavaScript.",
-      id: "#arcadeCloneModal"
+      id: "#arcadeCloneModal",
+      xHashId: "arcadeCloneModal",
+      label: "arcadeCloneModalLabel"
     },
     {
       name: "Website Optimization",
@@ -61,7 +65,9 @@ var viewModel = {
       description: "Optimized an inefficient web application's JavaScript, CSS and" +
         " assets delivery, ensuring it runs at 60fps and achieves a PageSpeed score" +
         " of at least 90.",
-      id: "#websiteOptimizationModal"
+      id: "#websiteOptimizationModal",
+      xHashId: "websiteOptimizationModal",
+      label: "websiteOptimizationModalLabel"
     },
     {
       name: "Feed Reader Testing",
@@ -71,7 +77,9 @@ var viewModel = {
       largePic: "images/feed-reader.jpeg",
       description: "Wrote comprehensive unit tests, using the Jasmine testing" +
         " framework, for an RSS Feed Reader application that uses Google's RSS API.",
-      id: "#feedReaderModal"
+      id: "#feedReaderModal",
+      xHashId: "feedReaderModal",
+      label: "feedReaderModalLabel"
     }
   ]
 };
