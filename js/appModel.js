@@ -1,4 +1,34 @@
 var viewModel = {
+  technologies: [
+    {
+      name: "JavaScript",
+      pic: "images/javascript.svg"
+    },
+    {
+      name: "jQuery",
+      pic: "images/jquery.svg"
+    },
+    {
+      name: "Knockout",
+      pic: "images/knockout.svg"
+    },
+    {
+      name: "Bootstrap",
+      pic: "images/bootstrap.svg"
+    },
+    {
+      name: "HTML",
+      pic: "images/HTML5_Badge.svg"
+    },
+    {
+      name: "CSS",
+      pic: "images/CSS3_Logo.svg"
+    },
+    {
+      name: "Jasmine",
+      pic: "images/jasmine-1.svg"
+    }
+  ]
   prevWork: [
     {
       name: "Neighborhood Map",
