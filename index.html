@@ -3,23 +3,41 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
     <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500" rel="stylesheet">
     <script src="https://use.fontawesome.com/80ace02dbb.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"
+      integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+      crossorigin="anonymous">
+    </script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
     <title>Brandon Batten Portfolio</title>
   </head>
   <body>
 
+    <nav class="navbar navbar-invert">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <a href="#" class="navbar-brand">
+            <img src="images/bracket-b.svg" alt="bracket b logo">
+            <h1 class="h3">Brandon Batten</h1>
+          </a>
+        </div>
+        <ul class="nav navbar-nav">
+          <li><a href="#">About Me</a></li>
+          <li><a href="#">Skills</a></li>
+          <li><a href="#">Portfolio</a></li>
+        </ul>
+      </div>
+    </nav>
+
     <!-- Header that takes up 100vh -->
     <header class="container-fluid">
-      <ul>
-        <li><a href="#">About Me</a></li>
-        <li><a href="#">Skills</a></li>
-        <li><a href="#">Portfolio</a></li>
+
+
       <div class="row">
         <div class="col-xs-12">
-          <img src="images/bracket-b.svg" alt="bracket b logo" class="bb-logo">
         </div>
       </div>
 
@@ -119,14 +137,10 @@
     </div>
 
 
-    <script src="https://code.jquery.com/jquery-3.2.1.min.js"
-    integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
-    crossorigin="anonymous">
-    </script>
+
     <script type="text/javascript" src="js/knockout-3.4.2.js"></script>
     <script type="text/javascript" src="js/helper.js" async></script>
     <script type="text/javascript" src="js/appModel.js" async></script>
-    <script type="text/javascript" src="js/bootstrap.min.js" async></script>
     <script>
       // Select all links with hashes
       $('a[href*="#"]')
