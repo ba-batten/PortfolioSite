@@ -1,3 +1,5 @@
+# I am no longer using this as my portfolio
+
 # PortfolioSite
 Developed a personal portfolio page using HTML, CSS, the Bootstrap framework, JavaScript, and the Knockout JS framework. The page is fully responsive and works on mobile, tablet, and desktop browsers.
 
